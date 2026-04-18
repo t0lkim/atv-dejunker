@@ -1,6 +1,6 @@
 # ATV-deJunker
 
-Bash script to debloat Android TV devices. Replaces the stock Google TV launcher with AT4K, removes preloaded bloatware, installs streaming apps, and disables sponsored content.
+Bash script to debloat Android TV devices. Replaces the stock Google TV launcher with [AT4K launcher](https://at4klauncher.com/), removes preloaded bloatware, installs streaming apps, and disables sponsored content.
 
 ## Usage
 

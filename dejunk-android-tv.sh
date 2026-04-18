@@ -24,7 +24,7 @@ set -euo pipefail
 # ── Config ────────────────────────────────────────────────────────────────────
 
 TV_IP=""                        # Leave blank to be prompted, or hardcode e.g. "192.168.1.50"
-AT4K_APK=""                     # Leave blank to download automatically
+AT4K_APK=""                     # Leave blank to download automatically but recommend Installing via Google Play Store
 AT4K_PKG="com.overdevs.at4k"
 AT4K_APKMIRROR_URL="https://www.apkmirror.com/apk/cute-little-apps/at4k-launcher-android-tv/"
 
@@ -37,23 +37,23 @@ STREAMING_APPS=(
     "com.netflix.ninja"                  # Netflix
     "com.amazon.amazonvideo.livingroom"  # Prime Video
     "com.apple.atve.sony.appletv"        # Apple TV (Android TV / SG)
-    "com.google.android.youtube.tv"     # YouTube
-    "com.plexapp.android"               # Plex
-    "com.disney.disneyplus"             # Disney+
+    "com.google.android.youtube.tv"      # YouTube
+    "com.plexapp.android"                # Plex
+    "com.disney.disneyplus"              # Disney+
 )
 
 DEBLOAT_PACKAGES=(
-    com.google.android.tvrecommendations   # Home screen ads / recommendation rows
-    com.google.android.tv                  # Live Channels app
-    com.google.android.play.games          # Play Games
-    com.google.android.youtube.tvmusic     # YouTube Music
-    com.google.android.katniss            # Google Assistant TV
-    com.google.android.katniss.gsa        # Google Assistant IME
-    com.google.android.tungsten.setupwraith # Setup wizard (already done)
-    com.google.android.partnersetup        # OEM telemetry shim
-    com.google.android.leanbacklauncher.games # Sample games row
-    com.mediacorp.mewatch                  # meWATCH (SG preload)
-    com.viu.tv                             # Viu (SG preload)
+    com.google.android.tvrecommendations       # Home screen ads / recommendation rows
+    com.google.android.tv                      # Live Channels app
+    com.google.android.play.games              # Play Games
+    com.google.android.youtube.tvmusic         # YouTube Music
+    com.google.android.katniss                 # Google Assistant TV
+    com.google.android.katniss.gsa             # Google Assistant IME
+    com.google.android.tungsten.setupwraith    # Setup wizard (already done)
+    com.google.android.partnersetup            # OEM telemetry shim
+    com.google.android.leanbacklauncher.games  # Sample games row
+    com.mediacorp.mewatch                      # meWATCH (SG preload)
+    com.viu.tv                                 # Viu (SG preload)
 )
 
 # ── Colours ───────────────────────────────────────────────────────────────────
