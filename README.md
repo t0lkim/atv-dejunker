@@ -15,7 +15,7 @@ Requires ADB over WiFi. The script prompts for the TV's IP address and walks thr
 
 1. Connects to the TV via ADB over WiFi
 2. Installs streaming apps (Netflix, Prime Video, Apple TV, YouTube, Plex, Disney+)
-3. Installs AT4K launcher and sets it as default
+3. Installs [AT4K launcher](https://at4klauncher.com/) and sets it as default
 4. Disables the stock Google TV launcher
 5. Removes bloatware (recommendation ads, Play Games, YouTube Music, regional preloads)
 6. Disables home panel sponsored content
